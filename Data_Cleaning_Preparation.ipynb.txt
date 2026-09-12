@@ -1,0 +1,680 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Data Cleaning & Preparation\n",
+    "**SWYNEX Technologies \u2014 Internship Task 1**\n",
+    "\n",
+    "**Objective:** Clean and prepare a raw employee dataset for analysis \u2014 identifying and fixing\n",
+    "missing values, duplicate records, incorrect data types, and inconsistent values.\n",
+    "\n",
+    "**Dataset:** `raw_employee_data.csv` \u2014 523 employee records with deliberately introduced\n",
+    "data-quality issues (missing values, duplicates, inconsistent text formatting, mixed date\n",
+    "formats, currency-formatted numbers).\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Shape: (523, 9)\n",
+      "  EmployeeID      Full Name   Department       City Age Salary     JoinDate                        Email  PerformanceRating\n",
+      "0    EMP1164   Rahul Chopra  Engineering  HYDERABAD  30  36385   1 Oct 2024   rahul.chopra13@company.com                4.3\n",
+      "1    EMP1103    Neha Pillai      FINANCE  bangalore  21  56121   2015-06-05    neha.pillai93@company.com                3.2\n",
+      "2    EMP1317     Divya Nair  engineering      delhi  37  44839   02-07-2020     divya.nair44@company.com                1.3\n",
+      "3    EMP1209   Pooja Sharma        SALES    CHENNAI  46  60908   01-18-2024   pooja.sharma25@company.com                NaN\n",
+      "4    EMP1247   Anjali Bhatt         H.R.       Pune  21  45205   05-04-2018   anjali.bhatt15@company.com                4.1\n",
+      "5    EMP1490    Karan Bhatt      SUPPORT     mumbai  45  53558  14 Feb 2017    karan.bhatt15@company.com                3.5\n",
+      "6    EMP1037  Sanjay Chopra    Marketing     Mumbai  39  78620   25/02/2021  sanjay.chopra67@company.com                NaN\n",
+      "7    EMP1330    Divya Kumar  ENGINEERING  hyderabad  23  82480   7 Jul 2015    divya.kumar56@company.com                3.6\n"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "\n",
+    "df = pd.read_csv(\"raw_employee_data.csv\")\n",
+    "print(\"Shape:\", df.shape)\n",
+    "print(df.head(8).to_string())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. Data Quality Report (Before Cleaning)\n",
+    "\n",
+    "Inspect nulls, duplicates, data types, and value inconsistencies."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Column dtypes:\n",
+      "EmployeeID               str\n",
+      "Full Name                str\n",
+      "Department               str\n",
+      "City                     str\n",
+      "Age                      str\n",
+      "Salary                   str\n",
+      "JoinDate                 str\n",
+      "Email                    str\n",
+      "PerformanceRating    float64\n",
+      "dtype: object\n",
+      "\n",
+      "Missing values per column:\n",
+      "EmployeeID            0\n",
+      "Full Name             0\n",
+      "Department           20\n",
+      "City                 15\n",
+      "Age                  27\n",
+      "Salary               20\n",
+      "JoinDate             10\n",
+      "Email                11\n",
+      "PerformanceRating    30\n",
+      "dtype: int64\n",
+      "\n",
+      "Total duplicate rows (exact matches): 15\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Column dtypes:\")\n",
+    "print(df.dtypes)\n",
+    "print()\n",
+    "print(\"Missing values per column:\")\n",
+    "print(df.isnull().sum())\n",
+    "print()\n",
+    "print(\"Total duplicate rows (exact matches):\", df.duplicated().sum())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Unique values in 'Department' (raw):\n",
+      "['Customer Support', 'ENGINEERING', 'Eng', 'Engineering', 'FINANCE', 'Fin', 'Finance', 'H.R.', 'HR', 'Human Resources', 'MARKETING', 'Marketing', 'Mktg', 'OPERATIONS', 'Operations', 'Ops', 'SALES', 'SUPPORT', 'Sales', 'Sales ', 'Support', 'engineering', 'finance', 'hr', 'marketing', 'operations', 'sales', 'support']\n",
+      "\n",
+      "Unique values in 'City' (raw):\n",
+      "['BANGALORE', 'Bangalore', 'Bengaluru', 'Bombay', 'CHENNAI', 'Calcutta', 'Chennai', 'DELHI', 'Delhi', 'HYDERABAD', 'Hyderabad', 'KOLKATA', 'Kolkata', 'MUMBAI', 'Mumbai', 'New Delhi', 'PUNE', 'Pune', 'bangalore', 'chennai', 'delhi', 'hyderabad', 'kolkata', 'mumbai', 'pune']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Unique values in 'Department' (raw):\")\n",
+    "print(sorted(df['Department'].dropna().unique()))\n",
+    "print()\n",
+    "print(\"Unique values in 'City' (raw):\")\n",
+    "print(sorted(df['City'].dropna().unique()))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Sample of messy 'Age' values:\n",
+      "<StringArray>\n",
+      "[  '30',   '21',   '37',   '46',   '45',   '39',   '23',    nan,   '26',\n",
+      "   '44',   '28',   '27', ' 39 ', ' 45 ',   '38',   '42',   '41',   '33',\n",
+      "   '32',   '36']\n",
+      "Length: 20, dtype: str\n",
+      "\n",
+      "Sample of messy 'Salary' values:\n",
+      "<StringArray>\n",
+      "[  '36385',   '56121',   '44839',   '60908',   '45205',   '53558',   '78620',\n",
+      "   '82480',   '66733',   '54077',   '53805', '\u20b949,771',   '59643',   '78952',\n",
+      "   '42599',   '31179',   '68084',   '29666',   '59212',   '48650']\n",
+      "Length: 20, dtype: str\n",
+      "\n",
+      "Sample of messy 'JoinDate' values (mixed formats):\n",
+      "<StringArray>\n",
+      "[ '1 Oct 2024',  '2015-06-05',  '02-07-2020',  '01-18-2024',  '05-04-2018',\n",
+      " '14 Feb 2017',  '25/02/2021',  '7 Jul 2015',  '04/09/2023',  '3 Feb 2023']\n",
+      "Length: 10, dtype: str\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Sample of messy 'Age' values:\")\n",
+    "print(df['Age'].astype(str).unique()[:20])\n",
+    "print()\n",
+    "print(\"Sample of messy 'Salary' values:\")\n",
+    "print(df['Salary'].astype(str).unique()[:20])\n",
+    "print()\n",
+    "print(\"Sample of messy 'JoinDate' values (mixed formats):\")\n",
+    "print(df['JoinDate'].dropna().unique()[:10])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Data quality issues found:**\n",
+    "1. `Department` and `City` have inconsistent casing and abbreviations (e.g. \"sales\", \"SALES\", \"Sales \", \"H.R.\" vs \"HR\", \"Bengaluru\" vs \"Bangalore\")\n",
+    "2. `Age` stored as text in some rows (extra spaces, \"yrs\" suffix) instead of a clean integer\n",
+    "3. `Salary` stored as text with currency symbols (\u20b9), commas, and trailing \".00\" in some rows\n",
+    "4. `JoinDate` uses at least 4 different date formats mixed together\n",
+    "5. Missing values (NaN) across `Department`, `City`, `Age`, `Salary`, `Email`, `PerformanceRating`, `JoinDate`\n",
+    "6. Duplicate rows \u2014 both exact duplicates and near-duplicates (same EmployeeID, name in different case)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2. Standardising Text Columns (Department, City)\n",
+    "\n",
+    "Normalise casing and map abbreviations/aliases to a single canonical value."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Cleaned Department values: ['Engineering', 'Finance', 'HR', 'Marketing', 'Operations', 'Sales', 'Support']\n"
+     ]
+    }
+   ],
+   "source": [
+    "df['Department'] = df['Department'].astype(str).str.strip().str.title()\n",
+    "\n",
+    "dept_map = {\n",
+    "    'Sales': 'Sales',\n",
+    "    'Marketing': 'Marketing', 'Mktg': 'Marketing',\n",
+    "    'Engineering': 'Engineering', 'Eng': 'Engineering',\n",
+    "    'Hr': 'HR', 'H.R.': 'HR', 'Human Resources': 'HR',\n",
+    "    'Finance': 'Finance', 'Fin': 'Finance',\n",
+    "    'Operations': 'Operations', 'Ops': 'Operations',\n",
+    "    'Support': 'Support', 'Customer Support': 'Support',\n",
+    "    'Nan': np.nan,\n",
+    "}\n",
+    "df['Department'] = df['Department'].replace(dept_map)\n",
+    "print(\"Cleaned Department values:\", sorted(df['Department'].dropna().unique()))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Cleaned City values: ['Bangalore', 'Chennai', 'Delhi', 'Hyderabad', 'Kolkata', 'Mumbai', 'Pune']\n"
+     ]
+    }
+   ],
+   "source": [
+    "df['City'] = df['City'].astype(str).str.strip().str.title()\n",
+    "\n",
+    "city_map = {\n",
+    "    'Mumbai': 'Mumbai', 'Bombay': 'Mumbai',\n",
+    "    'Delhi': 'Delhi', 'New Delhi': 'Delhi',\n",
+    "    'Bangalore': 'Bangalore', 'Bengaluru': 'Bangalore',\n",
+    "    'Chennai': 'Chennai',\n",
+    "    'Pune': 'Pune',\n",
+    "    'Hyderabad': 'Hyderabad',\n",
+    "    'Kolkata': 'Kolkata', 'Calcutta': 'Kolkata',\n",
+    "    'Nan': np.nan,\n",
+    "}\n",
+    "df['City'] = df['City'].replace(city_map)\n",
+    "print(\"Cleaned City values:\", sorted(df['City'].dropna().unique()))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Fixing Data Types (Age, Salary)\n",
+    "\n",
+    "Strip stray characters and convert to proper numeric types."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Age dtype after cleaning: float64\n",
+      "count    496.000000\n",
+      "mean      31.770161\n",
+      "std        7.297405\n",
+      "min       21.000000\n",
+      "25%       26.000000\n",
+      "50%       32.000000\n",
+      "75%       37.000000\n",
+      "max       53.000000\n",
+      "Name: Age, dtype: float64\n"
+     ]
+    }
+   ],
+   "source": [
+    "df['Age'] = (\n",
+    "    df['Age'].astype(str)\n",
+    "    .str.replace('yrs', '', regex=False)\n",
+    "    .str.strip()\n",
+    ")\n",
+    "df['Age'] = pd.to_numeric(df['Age'], errors='coerce')\n",
+    "print(\"Age dtype after cleaning:\", df['Age'].dtype)\n",
+    "print(df['Age'].describe())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Salary dtype after cleaning: float64\n",
+      "count       503.000000\n",
+      "mean      54886.556660\n",
+      "std       17033.314348\n",
+      "min       18000.000000\n",
+      "25%       43284.000000\n",
+      "50%       54678.000000\n",
+      "75%       66021.500000\n",
+      "max      117285.000000\n",
+      "Name: Salary, dtype: float64\n"
+     ]
+    }
+   ],
+   "source": [
+    "df['Salary'] = (\n",
+    "    df['Salary'].astype(str)\n",
+    "    .str.replace('\u20b9', '', regex=False)\n",
+    "    .str.replace(',', '', regex=False)\n",
+    ")\n",
+    "df['Salary'] = pd.to_numeric(df['Salary'], errors='coerce')\n",
+    "print(\"Salary dtype after cleaning:\", df['Salary'].dtype)\n",
+    "print(df['Salary'].describe())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 4. Standardising Dates (JoinDate)\n",
+    "\n",
+    "Parse the mixed date formats into a single consistent `datetime` column."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "JoinDate dtype after cleaning: datetime64[us]\n",
+      "Unparseable dates remaining: 10\n",
+      "0   2024-10-01\n",
+      "1   2015-06-05\n",
+      "2   2020-02-07\n",
+      "3   2024-01-18\n",
+      "4   2018-05-04\n",
+      "5   2017-02-14\n",
+      "6   2021-02-25\n",
+      "7   2015-07-07\n",
+      "8   2023-09-04\n",
+      "9   2023-02-03\n",
+      "Name: JoinDate, dtype: datetime64[us]\n"
+     ]
+    }
+   ],
+   "source": [
+    "def parse_mixed_date(val):\n",
+    "    if pd.isna(val):\n",
+    "        return pd.NaT\n",
+    "    for fmt in (\"%Y-%m-%d\", \"%d/%m/%Y\", \"%m-%d-%Y\", \"%d %b %Y\"):\n",
+    "        try:\n",
+    "            return pd.to_datetime(val, format=fmt)\n",
+    "        except (ValueError, TypeError):\n",
+    "            continue\n",
+    "    return pd.to_datetime(val, errors='coerce')\n",
+    "\n",
+    "df['JoinDate'] = df['JoinDate'].apply(parse_mixed_date)\n",
+    "print(\"JoinDate dtype after cleaning:\", df['JoinDate'].dtype)\n",
+    "print(\"Unparseable dates remaining:\", df['JoinDate'].isna().sum())\n",
+    "print(df['JoinDate'].dropna().head(10))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 5. Handling Missing Values\n",
+    "\n",
+    "Apply an appropriate strategy per column, documented below."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Missing values before imputation:\n",
+      "Department           20\n",
+      "City                 15\n",
+      "Age                  27\n",
+      "Salary               20\n",
+      "JoinDate             10\n",
+      "Email                11\n",
+      "PerformanceRating    30\n",
+      "dtype: int64\n"
+     ]
+    }
+   ],
+   "source": [
+    "missing_before = df.isnull().sum()\n",
+    "print(\"Missing values before imputation:\")\n",
+    "print(missing_before[missing_before > 0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Missing values after imputation:\n",
+      "EmployeeID            0\n",
+      "Full Name             0\n",
+      "Department            0\n",
+      "City                  0\n",
+      "Age                   0\n",
+      "Salary                0\n",
+      "JoinDate             10\n",
+      "Email                11\n",
+      "PerformanceRating     0\n",
+      "dtype: int64\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Department, City: too categorical to guess -> fill with 'Unknown' rather than dropping rows\n",
+    "df['Department'] = df['Department'].fillna('Unknown')\n",
+    "df['City'] = df['City'].fillna('Unknown')\n",
+    "\n",
+    "# Age, Salary: numeric -> fill with column median (robust to outliers)\n",
+    "df['Age'] = df['Age'].fillna(df['Age'].median())\n",
+    "df['Salary'] = df['Salary'].fillna(df['Salary'].median())\n",
+    "\n",
+    "# PerformanceRating: fill with median rating\n",
+    "df['PerformanceRating'] = df['PerformanceRating'].fillna(df['PerformanceRating'].median())\n",
+    "\n",
+    "# Email: cannot be guessed -> leave as missing (kept as NaN, flagged)\n",
+    "# JoinDate: cannot be reliably guessed -> leave as missing (kept as NaT, flagged)\n",
+    "\n",
+    "print(\"Missing values after imputation:\")\n",
+    "print(df.isnull().sum())"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "**Imputation rationale:**\n",
+    "- `Department` / `City`: categorical, no reliable way to infer the true value \u2014 filled with `\"Unknown\"` rather than dropping the row (preserves other valid data in that row).\n",
+    "- `Age` / `Salary` / `PerformanceRating`: numeric \u2014 filled with the **median** rather than mean, since median is robust to outliers/skew.\n",
+    "- `Email` / `JoinDate`: left as missing (no safe way to reconstruct these), but the row is kept \u2014 these gaps are flagged for manual follow-up rather than fabricated.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 6. Removing Duplicate Records\n",
+    "\n",
+    "Identify and remove exact duplicates and near-duplicates (same EmployeeID, differing text case)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Exact duplicate rows found: 15\n",
+      "Shape after removing exact duplicates: (508, 9)\n"
+     ]
+    }
+   ],
+   "source": [
+    "exact_dupes = df.duplicated().sum()\n",
+    "print(\"Exact duplicate rows found:\", exact_dupes)\n",
+    "df = df.drop_duplicates()\n",
+    "print(\"Shape after removing exact duplicates:\", df.shape)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Rows sharing a duplicated EmployeeID: 16\n",
+      "    EmployeeID      Full Name\n",
+      "325    EMP1183    SNEHA MEHTA\n",
+      "453    EMP1183    Sneha Mehta\n",
+      "57     EMP1205  RAHUL AGARWAL\n",
+      "271    EMP1205  Rahul Agarwal\n",
+      "215    EMP1231   SANJAY REDDY\n",
+      "298    EMP1231   Sanjay Reddy\n",
+      "156    EMP1279    Arjun Patel\n",
+      "312    EMP1279    ARJUN PATEL\n",
+      "82     EMP1399  Sanjay Pillai\n",
+      "455    EMP1399  SANJAY PILLAI\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Near-duplicates: same EmployeeID appearing more than once (e.g. name case differs)\n",
+    "id_dupes = df[df.duplicated(subset=['EmployeeID'], keep=False)].sort_values('EmployeeID')\n",
+    "print(\"Rows sharing a duplicated EmployeeID:\", len(id_dupes))\n",
+    "print(id_dupes[['EmployeeID','Full Name']].head(10).to_string())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Final shape after removing near-duplicates: (500, 9)\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Keep the first occurrence per EmployeeID, drop the rest\n",
+    "df = df.drop_duplicates(subset=['EmployeeID'], keep='first')\n",
+    "print(\"Final shape after removing near-duplicates:\", df.shape)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 7. Final Data Type Check"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "EmployeeID                      str\n",
+      "Full Name                       str\n",
+      "Department                      str\n",
+      "City                            str\n",
+      "Age                           int64\n",
+      "Salary                      float64\n",
+      "JoinDate             datetime64[us]\n",
+      "Email                           str\n",
+      "PerformanceRating           float64\n",
+      "dtype: object\n"
+     ]
+    }
+   ],
+   "source": [
+    "df['Age'] = df['Age'].astype(int)\n",
+    "df['Salary'] = df['Salary'].round(2)\n",
+    "print(df.dtypes)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 8. Before vs. After Summary"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "            Metric                 Before          After\n",
+      "         Row count                    523            500\n",
+      "    Duplicate rows                     15              0\n",
+      "Missing Department                     20              0\n",
+      "      Missing City                     15              0\n",
+      "       Missing Age                     27              0\n",
+      "    Missing Salary                     20              0\n",
+      "         Age dtype    object (mixed text)          int64\n",
+      "      Salary dtype    object (mixed text)        float64\n",
+      "    JoinDate dtype object (mixed formats) datetime64[us]\n"
+     ]
+    }
+   ],
+   "source": [
+    "summary = pd.DataFrame({\n",
+    "    'Metric': ['Row count', 'Duplicate rows', 'Missing Department', 'Missing City',\n",
+    "               'Missing Age', 'Missing Salary', 'Age dtype', 'Salary dtype', 'JoinDate dtype'],\n",
+    "    'Before': [523, 15, 20, 15, 27, 20, 'object (mixed text)', 'object (mixed text)', 'object (mixed formats)'],\n",
+    "    'After':  [len(df), 0, 0, 0, 0, 0, str(df['Age'].dtype), str(df['Salary'].dtype), str(df['JoinDate'].dtype)],\n",
+    "})\n",
+    "print(summary.to_string(index=False))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 9. Save Cleaned Dataset"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": [
+      "Saved cleaned_employee_data.csv \u2014 500 rows, 9 columns\n"
+     ]
+    }
+   ],
+   "source": [
+    "df.to_csv(\"cleaned_employee_data.csv\", index=False)\n",
+    "print(\"Saved cleaned_employee_data.csv \u2014\", df.shape[0], \"rows,\", df.shape[1], \"columns\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Conclusion\n",
+    "\n",
+    "The raw dataset had inconsistent categorical text (casing, abbreviations), mixed date formats,\n",
+    "currency-formatted numeric fields, missing values across seven columns, and both exact and\n",
+    "near-duplicate records (23 rows total removed). After cleaning:\n",
+    "\n",
+    "- All text categories (`Department`, `City`) are standardised to a single canonical form\n",
+    "- `Age` and `Salary` are proper numeric types, free of currency symbols and stray text\n",
+    "- `JoinDate` is a single consistent `datetime` type instead of four mixed formats\n",
+    "- Missing values are handled per-column with a documented, defensible strategy\n",
+    "- Duplicate and near-duplicate records are removed, keeping the first valid occurrence\n",
+    "\n",
+    "The dataset is now analysis-ready and saved as `cleaned_employee_data.csv`.\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

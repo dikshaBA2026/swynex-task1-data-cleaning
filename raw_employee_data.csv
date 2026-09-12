@@ -1,0 +1,524 @@
+EmployeeID,Full Name,Department,City,Age,Salary,JoinDate,Email,PerformanceRating
+EMP1164,Rahul Chopra,Engineering,HYDERABAD,30,36385,1 Oct 2024,rahul.chopra13@company.com,4.3
+EMP1103,Neha Pillai,FINANCE,bangalore,21,56121,2015-06-05,neha.pillai93@company.com,3.2
+EMP1317,Divya Nair,engineering,delhi,37,44839,02-07-2020,divya.nair44@company.com,1.3
+EMP1209,Pooja Sharma,SALES,CHENNAI,46,60908,01-18-2024,pooja.sharma25@company.com,
+EMP1247,Anjali Bhatt,H.R.,Pune,21,45205,05-04-2018,anjali.bhatt15@company.com,4.1
+EMP1490,Karan Bhatt,SUPPORT,mumbai,45,53558,14 Feb 2017,karan.bhatt15@company.com,3.5
+EMP1037,Sanjay Chopra,Marketing,Mumbai,39,78620,25/02/2021,sanjay.chopra67@company.com,
+EMP1330,Divya Kumar,ENGINEERING,hyderabad,23,82480,7 Jul 2015,divya.kumar56@company.com,3.6
+EMP1210,Rahul Das,Fin,Pune,,66733,04/09/2023,rahul.das88@company.com,1.8
+EMP1016,Kavita Shah,Human Resources,delhi,30,54077,3 Feb 2023,kavita.shah97@company.com,2.1
+EMP1284,Arjun Nair,support,Kolkata,21,53805,22 Nov 2021,arjun.nair82@company.com,2.1
+EMP1010,Neha Malhotra,Sales,pune,26,"₹49,771",05/09/2015,neha.malhotra29@company.com,1.0
+EMP1027,Divya Patel,SUPPORT,Bengaluru,21,59643,13/05/2020,,3.5
+EMP1136,Amit Rao,Operations,hyderabad,37,78952,04/01/2024,amit.rao88@company.com,2.6
+EMP1343,Priya Kapoor,Fin,New Delhi,44,42599,10/12/2016,priya.kapoor96@company.com,2.4
+EMP1355,Meera Nair,sales,Mumbai,28,31179,2020-06-15,meera.nair57@company.com,
+EMP1175,Sneha Nair,ENGINEERING,Bombay,27,68084,08-23-2023,sneha.nair92@company.com,3.8
+EMP1240,Meera Reddy,operations,MUMBAI, 39 ,29666,3 Oct 2016,meera.reddy97@company.com,2.6
+EMP1321,Ajay Kumar,Engineering,BANGALORE, 45 ,59212,05-01-2024,ajay.kumar92@company.com,2.9
+EMP1087,Amit Iyer,sales,BANGALORE,39,48650,09-18-2017,amit.iyer65@company.com,1.8
+EMP1364,Priya Joshi,,CHENNAI,38,46568,22/05/2021,priya.joshi19@company.com,2.4
+EMP1080,Ritu Chopra,support,CHENNAI,38,88906,11 Nov 2021,ritu.chopra82@company.com,4.7
+EMP1313,Manoj Verma,marketing,Pune,,60001,08-15-2015,manoj.verma89@company.com,2.2
+EMP1269,Karan Kumar,H.R.,New Delhi,28,"₹56,295",10-01-2015,karan.kumar61@company.com,
+EMP1310,Karan Patel,support,Bengaluru,42,46844,2020-03-01,karan.patel61@company.com,3.0
+EMP1014,Manoj Kumar,Customer Support,HYDERABAD,41,72650,08-08-2024,manoj.kumar71@company.com,1.8
+EMP1107,Meera Reddy,hr,Kolkata,33,54273,24/04/2018,meera.reddy45@company.com,4.1
+EMP1362,Amit Verma,SALES,Mumbai,21,"₹73,534",2024-04-10,amit.verma69@company.com,1.8
+EMP1180,Suresh Kapoor,Human Resources,Mumbai,32,38904,06/11/2018,suresh.kapoor36@company.com,3.1
+EMP1409,Sneha Shah,Engineering,delhi,21,67154,23 Oct 2023,sneha.shah25@company.com,1.4
+EMP1433,Meera Joshi,Finance,Bombay,37,59790,12-25-2018,meera.joshi41@company.com,1.2
+EMP1376,Neha Malhotra,engineering,Pune,36,69157,25/04/2023,neha.malhotra32@company.com,1.4
+EMP1081,Ajay Reddy,engineering,hyderabad,34,75397,04-02-2023,ajay.reddy91@company.com,2.5
+EMP1356,Meera Gupta,HR,bangalore,21,,2019-09-02,meera.gupta88@company.com,3.6
+EMP1441,Rahul Rao,sales,Chennai,32,"₹49,414",9 Mar 2019,rahul.rao26@company.com,3.2
+EMP1057,Pooja Verma,engineering,Kolkata,30,22336,2022-05-06,pooja.verma48@company.com,4.3
+EMP1073,Rohan Chopra,ENGINEERING,bangalore,38,66775,2015-04-02,rohan.chopra64@company.com,3.0
+EMP1061,Meera Bhatt,Support,BANGALORE,21,49865,03/12/2023,meera.bhatt89@company.com,4.3
+EMP1102,Ajay Singh,HR,PUNE,46,24124,2021-12-12,ajay.singh4@company.com,1.4
+EMP1294,Shreya Agarwal,hr,Hyderabad,21,45207,2023-12-18,shreya.agarwal33@company.com,4.5
+EMP1466,Karan Chopra,marketing,HYDERABAD,36,83110,3 Dec 2016,karan.chopra6@company.com,1.7
+EMP1134,Meera Reddy,Finance,Pune,26,56361,14 Oct 2021,meera.reddy41@company.com,1.7
+EMP1116,Divya Shah,sales,mumbai, 21 ,47418,22 Dec 2019,divya.shah78@company.com,3.6
+EMP1251,Ajay Sharma,Operations,Delhi,28,30369,05-20-2018,ajay.sharma16@company.com,2.4
+EMP1482,Neha Joshi,SALES,HYDERABAD,30,49741.00,10/06/2015,neha.joshi94@company.com,4.3
+EMP1124,Suresh Singh,OPERATIONS,pune, 38 ,,07-02-2019,,3.5
+EMP1314,Arjun Reddy,SUPPORT,Pune, 29 ,39792,05-09-2018,arjun.reddy30@company.com,1.1
+EMP1473,Shreya Das,SUPPORT,DELHI,22,43228,2015-04-05,shreya.das12@company.com,3.6
+EMP1230,Suresh Agarwal,OPERATIONS,New Delhi,25,,24 Oct 2022,suresh.agarwal5@company.com,1.4
+EMP1233,Karan Rao,Ops,hyderabad,35,42141,06-16-2015,karan.rao38@company.com,3.3
+EMP1478,Rohan Singh,SALES,bangalore,36,19173,2020-06-18,rohan.singh75@company.com,3.3
+EMP1239,Kavita Malhotra,Support,Calcutta,40,31143,25 Apr 2015,kavita.malhotra26@company.com,2.2
+EMP1266,Ajay Iyer,Mktg,delhi,,42302,19/02/2020,ajay.iyer97@company.com,3.2
+EMP1132,Kavita Gupta,ENGINEERING,Chennai,21,43274,2017-04-08,kavita.gupta5@company.com,1.6
+EMP1186,Priya Gupta,Ops,PUNE,37,"₹24,083",2023-04-11,priya.gupta45@company.com,3.2
+EMP1373,Pooja Iyer,hr,Bengaluru,40,46807,11-15-2015,pooja.iyer58@company.com,1.7
+EMP1261,Manoj Iyer,FINANCE,,28,31107,2015-07-03,manoj.iyer18@company.com,4.6
+EMP1205,RAHUL AGARWAL,operations,Calcutta, 42 ,46618,2018-11-19,rahul.agarwal72@company.com,3.8
+EMP1287,Neha Kumar,Engineering,CHENNAI,32,52925,05/10/2024,neha.kumar7@company.com,3.0
+EMP1157,Karan Agarwal,SUPPORT,BANGALORE,30,60309.00,25 Jan 2016,karan.agarwal6@company.com,1.3
+EMP1358,Kavita Joshi,H.R.,Pune,41,53872,2023-12-25,kavita.joshi27@company.com,3.8
+EMP1196,Suresh Mehta,Support,chennai, 45 ,"₹55,812",7 Aug 2020,suresh.mehta5@company.com,3.3
+EMP1369,Suresh Joshi,Sales ,Bangalore,36,60985,2015-09-15,suresh.joshi49@company.com,4.6
+EMP1101,Meera Mehta,marketing,chennai,31,60477,2023-09-22,meera.mehta74@company.com,3.3
+EMP1403,Divya Agarwal,H.R.,mumbai,30,55601,2016-10-05,divya.agarwal60@company.com,1.7
+EMP1144,Shreya Agarwal,hr,Bombay,38,65767,2016-08-09,shreya.agarwal92@company.com,1.9
+EMP1378,Meera Bhatt,support,New Delhi, 35 ,76004,21/03/2018,meera.bhatt53@company.com,1.3
+EMP1425,Sneha Singh,finance,pune,25,89571,2015-11-12,sneha.singh15@company.com,3.6
+EMP1479,Meera Pillai,support,Bombay,23,66859,06/07/2021,meera.pillai90@company.com,2.0
+EMP1333,Ajay Sharma,finance,Mumbai,31,43814,02-26-2022,ajay.sharma44@company.com,3.8
+EMP1286,Sneha Iyer,hr,Bombay,45,50809,22 Nov 2021,sneha.iyer77@company.com,2.1
+EMP1282,Neha Nair,,Mumbai,35,54268,10 Mar 2023,neha.nair5@company.com,3.9
+EMP1401,Anjali Malhotra,Sales ,Bombay,25,55916,8 Apr 2022,anjali.malhotra1@company.com,1.1
+EMP1111,Kavita Sharma,support,Pune,36,24364,14 Jun 2021,kavita.sharma68@company.com,4.8
+EMP1040,Meera Joshi,engineering,chennai,28,69139,12-04-2015,meera.joshi49@company.com,1.4
+EMP1051,Neha Chopra,Operations,Hyderabad,39,65945,08-04-2019,neha.chopra23@company.com,1.3
+EMP1462,Ajay Rao,Finance,bangalore,27,67362,2018-12-10,ajay.rao89@company.com,2.2
+EMP1166,Sanjay Agarwal,OPERATIONS,Chennai,30,61405,2020-12-02,sanjay.agarwal67@company.com,1.3
+EMP1043,Amit Reddy,SUPPORT,CHENNAI,25,46400,07-11-2016,amit.reddy58@company.com,
+EMP1058,Meera Verma,support,mumbai,,44079,12-25-2016,meera.verma49@company.com,2.7
+EMP1047,Karan Gupta,Fin,Pune,27,66540.00,05-10-2024,karan.gupta8@company.com,4.0
+EMP1153,Suresh Shah,SALES,hyderabad,30,64116,17 May 2024,suresh.shah76@company.com,1.3
+EMP1399,Sanjay Pillai,Sales ,Calcutta,33,45807,08-15-2019,sanjay.pillai89@company.com,1.1
+EMP1227,Neha Patel,ENGINEERING,HYDERABAD,30,57710,2017-12-04,neha.patel25@company.com,3.1
+EMP1066,Anjali Das,sales,bangalore,25,50769,01-17-2021,anjali.das81@company.com,3.2
+EMP1497,Neha Chopra,,CHENNAI,30,"₹46,908",2017-04-21,neha.chopra92@company.com,
+EMP1367,Manoj Iyer,ENGINEERING,Bombay, 33 ,43022,27/08/2024,manoj.iyer61@company.com,3.9
+EMP1243,Meera Das,sales,KOLKATA,45,55186,2021-05-26,meera.das52@company.com,
+EMP1290,Manoj Pillai,SALES,chennai,21,,17/12/2021,manoj.pillai3@company.com,2.3
+EMP1185,Divya Mehta,FINANCE,PUNE,,"₹66,242",22/11/2019,divya.mehta96@company.com,4.7
+EMP1485,Pooja Rao,Operations,Calcutta,,35485,05/10/2019,pooja.rao53@company.com,3.9
+EMP1494,Amit Reddy,SALES,Delhi,26,61411,2017-10-24,amit.reddy28@company.com,3.2
+EMP1015,Anjali Pillai,support,Chennai,27,,08/06/2022,anjali.pillai20@company.com,4.1
+EMP1481,Arjun Shah,engineering,delhi,39,40414,10-09-2023,arjun.shah43@company.com,1.3
+EMP1130,Kavita Kapoor,Customer Support,Bombay,32,56926,11-16-2024,kavita.kapoor26@company.com,4.6
+EMP1465,Priya Reddy,operations,Pune,28,54484,2017-05-06,priya.reddy22@company.com,4.5
+EMP1395,Shreya Iyer,finance,mumbai, 40 ,42637,25 May 2017,shreya.iyer89@company.com,
+EMP1067,Ajay Patel,MARKETING,Kolkata,44,54060,18 Oct 2019,ajay.patel91@company.com,3.2
+EMP1418,Vikram Iyer,Mktg,hyderabad,,59837,08-04-2024,vikram.iyer28@company.com,2.1
+EMP1197,Anjali Rao,operations,PUNE,44,71472,26 Oct 2022,anjali.rao65@company.com,3.9
+EMP1365,Meera Verma,FINANCE,mumbai,23,58178,08-26-2021,meera.verma48@company.com,2.5
+EMP1452,Pooja Agarwal,Sales ,pune, 21 ,20499,16 Nov 2020,,2.5
+EMP1438,Shreya Shah,FINANCE,Hyderabad,,117285,20/12/2020,shreya.shah87@company.com,4.8
+EMP1319,Meera Das,Marketing,Chennai,25,70230,16 Apr 2021,meera.das38@company.com,3.6
+EMP1112,Amit Kapoor,support,mumbai,39,73322,05-10-2016,amit.kapoor38@company.com,3.8
+EMP1137,Rahul Pillai,Fin,mumbai,31yrs,"₹61,648",19 Jun 2023,rahul.pillai17@company.com,2.8
+EMP1121,Suresh Sharma,FINANCE,Bengaluru,30,63969,10 Jun 2019,,2.8
+EMP1272,Ajay Kumar,Eng,PUNE,27,"₹79,006",08/09/2016,ajay.kumar36@company.com,2.1
+EMP1090,Suresh Das,ENGINEERING,Calcutta,33,45812,06-10-2019,suresh.das15@company.com,1.1
+EMP1241,Sneha Reddy,hr,Bombay,36yrs,72173,04-11-2018,sneha.reddy13@company.com,3.6
+EMP1326,Shreya Bhatt,Mktg,Kolkata,38,75499,10 Mar 2022,shreya.bhatt28@company.com,2.2
+EMP1126,Suresh Iyer,,kolkata,35,69258,17 Dec 2019,suresh.iyer85@company.com,2.5
+EMP1194,Vikram Gupta,FINANCE,PUNE, 36 ,,14/03/2024,vikram.gupta78@company.com,1.1
+EMP1237,Amit Kapoor,SALES,Chennai,21,57509,10-03-2015,amit.kapoor52@company.com,3.3
+EMP1386,Sanjay Bhatt,Operations,Delhi,26,"₹74,978",2016-04-23,sanjay.bhatt41@company.com,3.0
+EMP1271,Amit Malhotra,Mktg,Pune,,56051.00,2021-01-08,amit.malhotra10@company.com,1.3
+EMP1204,Anjali Chopra,finance,Bombay,21,27752,8 Jul 2021,anjali.chopra18@company.com,1.0
+EMP1454,Karan Das,Eng,Calcutta,25,56416,20/10/2022,karan.das22@company.com,4.6
+EMP1119,Neha Patel,Operations,Mumbai,37,51792,22/07/2015,neha.patel71@company.com,3.8
+EMP1296,Manoj Chopra,support,PUNE,26,,26 Oct 2020,manoj.chopra21@company.com,2.5
+EMP1339,Sanjay Singh,Mktg,mumbai,21,90784,21 Sep 2015,sanjay.singh36@company.com,4.0
+EMP1170,Meera Patel,Operations,HYDERABAD,23,39524,19 Jun 2023,meera.patel75@company.com,3.4
+EMP1472,Sneha Sharma,Sales ,hyderabad, 38 ,69993,2016-10-14,sneha.sharma13@company.com,4.7
+EMP1465,PRIYA REDDY,operations,Pune,28,54484,2017-05-06,priya.reddy22@company.com,4.5
+EMP1127,Neha Pillai,HR,DELHI,46,73209,02-27-2017,neha.pillai63@company.com,2.1
+EMP1118,Meera Kumar,Eng,,24,57678,10-04-2024,meera.kumar72@company.com,1.0
+EMP1334,Vikram Sharma,Sales,MUMBAI,31,68439,09-26-2020,vikram.sharma13@company.com,4.2
+EMP1083,Divya Kumar,Operations,KOLKATA,24,70992,25/05/2018,divya.kumar51@company.com,4.6
+EMP1161,Sneha Das,Engineering,Bengaluru,36,79710,08/11/2022,sneha.das77@company.com,1.3
+EMP1487,Divya Patel,Human Resources,Bombay,26,59906,11-02-2019,divya.patel66@company.com,1.3
+EMP1371,Rohan Patel,marketing,chennai,21yrs,54187,18 May 2022,rohan.patel20@company.com,4.6
+EMP1329,Ajay Agarwal,OPERATIONS,delhi, 32 ,51748,04-14-2023,ajay.agarwal81@company.com,3.0
+EMP1323,Rahul Rao,SALES,Delhi,31,90478,8 Apr 2016,rahul.rao47@company.com,1.9
+EMP1059,Ritu Kapoor,H.R.,hyderabad,23,58841,2015-07-09,ritu.kapoor81@company.com,3.2
+EMP1218,Priya Kapoor,Sales,Mumbai,37,"₹61,013",2020-09-05,priya.kapoor30@company.com,2.0
+EMP1105,Meera Reddy,MARKETING,chennai,32,68575,10/09/2023,meera.reddy57@company.com,2.8
+EMP1055,Pooja Verma,Marketing,DELHI,32,27132,2021-07-01,pooja.verma71@company.com,2.4
+EMP1491,Shreya Nair,ENGINEERING,Kolkata,32,58128,03/11/2021,shreya.nair67@company.com,2.8
+EMP1159,Anjali Pillai,Support,New Delhi, 22 ,52637.00,2015-01-04,anjali.pillai11@company.com,1.6
+EMP1056,Suresh Kapoor,,kolkata,,64936,14 Nov 2016,suresh.kapoor16@company.com,2.7
+EMP1391,Pooja Mehta,Customer Support,Delhi,32,74417,2016-09-07,pooja.mehta86@company.com,2.4
+EMP1177,Divya Mehta,,Bengaluru,21,48698,01/09/2023,divya.mehta3@company.com,4.0
+EMP1088,Pooja Kumar,H.R.,delhi,35,36430,2 Oct 2017,pooja.kumar55@company.com,2.0
+EMP1288,Suresh Malhotra,,New Delhi,41,"₹38,812",12/09/2020,suresh.malhotra89@company.com,2.8
+EMP1024,Kavita Singh,Mktg,Mumbai,43,56126,27 Oct 2023,kavita.singh19@company.com,1.0
+EMP1114,Neha Sharma,support,Delhi,39,35049,8 Nov 2022,neha.sharma66@company.com,
+EMP1139,Manoj Malhotra,engineering,pune,21,33542,10/10/2019,manoj.malhotra74@company.com,3.5
+EMP1429,Kavita Nair,Customer Support,chennai,31,"₹37,608",01/01/2017,kavita.nair71@company.com,2.6
+EMP1031,Rohan Joshi,Operations,PUNE,33,63709,15 Jun 2019,rohan.joshi45@company.com,1.5
+EMP1417,Neha Gupta,Ops,DELHI,32,74814,2018-12-26,neha.gupta56@company.com,1.4
+EMP1155,Neha Joshi,Ops,MUMBAI, 35 ,"₹76,751",15/04/2017,neha.joshi47@company.com,2.5
+EMP1464,Vikram Joshi,Eng,CHENNAI,32,,10/07/2019,vikram.joshi62@company.com,2.4
+EMP1189,Manoj Gupta,support,BANGALORE,30,35806,2017-09-07,manoj.gupta68@company.com,1.4
+EMP1268,Ajay Rao,Customer Support,pune,32,51834,19/01/2024,ajay.rao75@company.com,3.6
+EMP1201,Neha Pillai,hr,DELHI,29,57470,19/10/2017,neha.pillai88@company.com,3.2
+EMP1168,Neha Bhatt,Eng,Chennai, 28 ,50142,02-08-2021,neha.bhatt16@company.com,3.8
+EMP1279,Arjun Patel,Finance,MUMBAI,46,54975,2019-09-24,arjun.patel81@company.com,2.3
+EMP1483,Suresh Singh,SALES,Hyderabad,24,49553,14 Dec 2016,suresh.singh30@company.com,2.6
+EMP1262,Ajay Mehta,engineering,Mumbai,26,67831,2018-12-22,ajay.mehta80@company.com,5.0
+EMP1128,Amit Shah,H.R.,Delhi,23,48071,11 May 2022,amit.shah69@company.com,3.1
+EMP1067,Ajay Patel,MARKETING,Kolkata,44,54060,18 Oct 2019,ajay.patel91@company.com,3.2
+EMP1123,Karan Nair,HR,CHENNAI,35,58116,13/05/2019,karan.nair20@company.com,2.9
+EMP1203,Sanjay Sharma,Fin,hyderabad,39,57308,18/07/2017,sanjay.sharma19@company.com,3.1
+EMP1361,Divya Chopra,MARKETING,CHENNAI,30,41201,2018-03-10,divya.chopra30@company.com,3.2
+EMP1428,Sanjay Das,H.R.,Kolkata, 33 ,38095,10 Sep 2020,sanjay.das52@company.com,4.4
+EMP1273,Amit Das,engineering,Bombay,43,59302,09-27-2024,amit.das35@company.com,2.5
+EMP1098,Rahul Shah,Fin,Mumbai,39,47306,20 Apr 2017,rahul.shah55@company.com,4.1
+EMP1471,Neha Shah,Customer Support,DELHI,21,39657,11-10-2023,neha.shah39@company.com,3.6
+EMP1353,Kavita Kumar,Customer Support,Bangalore,,49859,6 Aug 2017,kavita.kumar14@company.com,2.4
+EMP1434,Kavita Reddy,ENGINEERING,Pune,39,54718,,kavita.reddy54@company.com,2.0
+EMP1244,Karan Kumar,Ops,Bangalore,34,49953,2016-10-22,karan.kumar75@company.com,1.1
+EMP1306,Meera Joshi,support,Mumbai,31,85892,05-04-2015,meera.joshi69@company.com,4.4
+EMP1146,Ajay Verma,Eng,Bangalore,30,57053,,ajay.verma50@company.com,3.6
+EMP1190,Karan Singh,Operations,delhi,29,35196,06-14-2018,karan.singh1@company.com,4.4
+EMP1381,Meera Shah,Engineering,,44,"₹49,497",13 Jul 2018,meera.shah21@company.com,1.6
+EMP1320,Neha Rao,Mktg,PUNE,21,28672,06-12-2023,neha.rao57@company.com,3.5
+EMP1444,Neha Pillai,Human Resources,PUNE,33,59617,21 Nov 2021,neha.pillai63@company.com,
+EMP1384,Priya Gupta,finance,Hyderabad,27,57779,02-24-2021,priya.gupta12@company.com,4.4
+EMP1303,Ritu Pillai,Fin,PUNE,28,35683,02-07-2016,ritu.pillai63@company.com,4.8
+EMP1489,Neha Singh,Operations,Calcutta,46,90889,2019-01-26,neha.singh80@company.com,1.6
+EMP1108,Anjali Das,finance,CHENNAI,32,88490,19/08/2024,anjali.das50@company.com,4.8
+EMP1291,Amit Shah,,Pune,24,29600,18 Apr 2015,amit.shah63@company.com,2.1
+EMP1003,Priya Patel,marketing,New Delhi,32,20518,13 Oct 2024,priya.patel15@company.com,4.8
+EMP1211,Anjali Chopra,Eng,Bombay,34,71231,13 Sep 2015,anjali.chopra57@company.com,
+EMP1202,Rahul Iyer,FINANCE,New Delhi,45,68988,02-03-2019,rahul.iyer93@company.com,3.4
+EMP1082,Karan Patel,Eng,Chennai,30,43594,04-14-2018,karan.patel70@company.com,2.7
+EMP1411,Rahul Malhotra,ENGINEERING,delhi,39,41639,2024-02-10,rahul.malhotra84@company.com,4.8
+EMP1053,Shreya Gupta,FINANCE,chennai,21,60812,09-09-2024,shreya.gupta85@company.com,3.0
+EMP1385,Pooja Chopra,,hyderabad,21,56028,2 Sep 2016,pooja.chopra39@company.com,2.3
+EMP1084,Rohan Bhatt,Mktg,Pune,35,,9 May 2018,rohan.bhatt2@company.com,1.1
+EMP1468,Manoj Reddy,Sales,Kolkata,35,56335,23/05/2017,manoj.reddy26@company.com,3.6
+EMP1179,Sneha Joshi,Ops,Hyderabad,36,"₹70,474",2022-12-04,sneha.joshi95@company.com,3.2
+EMP1138,Priya Singh,,Bangalore,,70625,5 Apr 2020,priya.singh21@company.com,3.3
+EMP1248,Arjun Malhotra,Eng,hyderabad, 29 ,52543,17 Jun 2020,arjun.malhotra37@company.com,2.2
+EMP1461,Pooja Bhatt,,CHENNAI,21,38266,17/02/2022,pooja.bhatt53@company.com,
+EMP1463,Amit Malhotra,Customer Support,BANGALORE,33,"₹64,016",12 May 2015,amit.malhotra54@company.com,2.6
+EMP1074,Manoj Kapoor,Operations,Hyderabad,39,52258,2015-06-11,manoj.kapoor65@company.com,4.4
+EMP1498,Anjali Reddy,finance,KOLKATA,29,61261,05-03-2020,anjali.reddy36@company.com,2.3
+EMP1475,Neha Joshi,Ops,BANGALORE,30,38318,15/03/2015,neha.joshi86@company.com,2.7
+EMP1301,Kavita Patel,Finance,Chennai,21,24325,2 Jul 2021,kavita.patel21@company.com,4.5
+EMP1342,Anjali Mehta,H.R.,New Delhi,35,59922,11-17-2022,anjali.mehta1@company.com,1.6
+EMP1023,Suresh Reddy,engineering,Chennai,28,37071,1 Jul 2019,suresh.reddy87@company.com,4.4
+EMP1140,Rahul Agarwal,OPERATIONS,New Delhi,34,35250,04-05-2019,rahul.agarwal30@company.com,2.2
+EMP1154,Amit Rao,Human Resources,kolkata,30,31085,07/08/2024,amit.rao20@company.com,4.7
+EMP1254,Manoj Gupta,ENGINEERING,Bengaluru,39,67115,24/03/2020,manoj.gupta52@company.com,2.7
+EMP1191,Sneha Rao,H.R.,HYDERABAD,27,50465,8 Aug 2015,sneha.rao85@company.com,1.9
+EMP1304,Manoj Patel,Ops,Chennai,36,48514,11-19-2024,manoj.patel46@company.com,4.6
+EMP1018,Sneha Nair,finance,pune,41,91621,06-19-2018,sneha.nair47@company.com,4.6
+EMP1249,Vikram Bhatt,Sales,HYDERABAD,29,78045,25 Apr 2018,vikram.bhatt51@company.com,1.2
+EMP1050,Neha Iyer,H.R.,CHENNAI,49,77135,2020-07-09,neha.iyer40@company.com,4.8
+EMP1038,Pooja Das,finance,Pune,30,70280.00,02/12/2022,pooja.das55@company.com,1.2
+EMP1193,Sneha Singh,FINANCE,hyderabad,33,42263,24/08/2019,sneha.singh98@company.com,2.6
+EMP1366,Vikram Sharma,HR,Hyderabad,43,43723,,vikram.sharma52@company.com,4.6
+EMP1188,Pooja Shah,SUPPORT,Bangalore,33,46180,16/12/2016,pooja.shah88@company.com,3.0
+EMP1416,Ritu Mehta,Ops,Delhi,32,74790,14/08/2018,ritu.mehta63@company.com,4.9
+EMP1231,SANJAY REDDY,Ops,Chennai,33,"₹37,691",10/12/2019,sanjay.reddy51@company.com,4.1
+EMP1439,Rahul Das,operations,Kolkata,22,66177,21 Nov 2023,rahul.das44@company.com,2.4
+EMP1214,Shreya Rao,hr,,35,81581,06/06/2018,shreya.rao1@company.com,4.2
+EMP1005,Neha Pillai,ENGINEERING,Hyderabad,29,33760,03-11-2023,neha.pillai94@company.com,4.2
+EMP1075,Shreya Mehta,,hyderabad, 30 ,69309,12-22-2015,shreya.mehta56@company.com,2.0
+EMP1142,Divya Chopra,Human Resources,Bombay,21,53495,2023-10-23,divya.chopra43@company.com,1.8
+EMP1047,Karan Gupta,Fin,Pune,27,66540.00,05-10-2024,karan.gupta8@company.com,4.0
+EMP1046,Karan Kumar,engineering,CHENNAI,24,22972,2021-05-26,karan.kumar37@company.com,
+EMP1070,Pooja Chopra,MARKETING,CHENNAI,43,88749,08-27-2023,pooja.chopra97@company.com,
+EMP1131,Kavita Patel,Human Resources,bangalore,23,44291,10-11-2023,kavita.patel73@company.com,4.0
+EMP1079,Arjun Shah,Finance,chennai,34,52620,06-08-2018,arjun.shah43@company.com,3.8
+EMP1225,Vikram Sharma,Customer Support,hyderabad,32,18000,14/11/2022,vikram.sharma71@company.com,4.2
+EMP1030,Sanjay Kumar,sales,Bengaluru,51,"₹54,616",25 Aug 2022,sanjay.kumar72@company.com,4.8
+EMP1011,Meera Bhatt,Engineering,Bombay,26,76868,4 Sep 2024,meera.bhatt50@company.com,1.9
+EMP1382,Priya Iyer,Sales ,,53,64747,2021-05-21,priya.iyer62@company.com,1.2
+EMP1150,Neha Chopra,Fin,Hyderabad,31,39774,18 Sep 2020,neha.chopra82@company.com,1.7
+EMP1229,Ritu Pillai,support,pune,34,66653,2019-08-06,ritu.pillai94@company.com,2.3
+EMP1486,Vikram Nair,Engineering,chennai,36,65014,14/04/2015,vikram.nair53@company.com,3.5
+EMP1427,Neha Nair,sales,DELHI,39,64184,2022-06-26,neha.nair68@company.com,1.5
+EMP1115,Amit Agarwal,OPERATIONS,Mumbai,34,74696,5 May 2022,amit.agarwal26@company.com,1.1
+EMP1025,Ritu Kapoor,Marketing,Delhi,21,71261.00,12-04-2018,ritu.kapoor23@company.com,4.7
+EMP1473,SHREYA DAS,SUPPORT,DELHI,22,43228,2015-04-05,shreya.das12@company.com,3.6
+EMP1195,Vikram Chopra,MARKETING,HYDERABAD,,39282,11-04-2020,vikram.chopra48@company.com,2.9
+EMP1224,Anjali Reddy,Finance,hyderabad,43,69261,2023-12-14,anjali.reddy38@company.com,4.0
+EMP1492,Priya Singh,Sales,Calcutta,39,18000,08-01-2019,priya.singh69@company.com,3.4
+EMP1451,Sanjay Kapoor,ENGINEERING,BANGALORE,24,33642,02-19-2021,sanjay.kapoor16@company.com,3.4
+EMP1065,Anjali Chopra,OPERATIONS,kolkata,39,48806,14 Jul 2022,anjali.chopra7@company.com,1.4
+EMP1280,Divya Agarwal,Customer Support,Delhi,51yrs,44948,2024-10-05,divya.agarwal68@company.com,1.7
+EMP1045,Meera Reddy,SUPPORT,mumbai,29,46973,04-05-2015,meera.reddy46@company.com,1.7
+EMP1460,Amit Kumar,SUPPORT,Kolkata,37,58104,24/05/2019,amit.kumar35@company.com,1.4
+EMP1349,Manoj Gupta,engineering,PUNE,26,62876,5 Nov 2021,manoj.gupta70@company.com,
+EMP1169,Ritu Das,Ops,Pune,40,70590,08-11-2016,ritu.das28@company.com,3.1
+EMP1270,Sanjay Agarwal,hr,Kolkata,30,77082,4 Feb 2020,sanjay.agarwal37@company.com,
+EMP1431,Sneha Reddy,OPERATIONS,HYDERABAD,33,75170,2022-01-21,sneha.reddy8@company.com,4.0
+EMP1260,Ritu Bhatt,Support,MUMBAI,30,53094,16 Jul 2019,ritu.bhatt30@company.com,4.0
+EMP1310,Karan Patel,support,Bengaluru,42,46844,2020-03-01,karan.patel61@company.com,3.0
+EMP1093,Meera Agarwal,ENGINEERING,pune,34,"₹42,666",8 Jan 2017,meera.agarwal85@company.com,3.1
+EMP1389,Vikram Kapoor,Finance,bangalore,40,56147,08/01/2022,vikram.kapoor55@company.com,3.7
+EMP1068,Ajay Iyer,Fin,pune, 33 ,48406,2017-04-01,ajay.iyer1@company.com,4.3
+EMP1021,Amit Gupta,H.R.,Kolkata,35,76085,12-22-2023,amit.gupta29@company.com,2.9
+EMP1077,Karan Shah,Engineering,chennai,21,73883,04-01-2018,karan.shah48@company.com,1.1
+EMP1448,Arjun Mehta,Finance,Pune, 21 ,81990,8 Oct 2024,arjun.mehta70@company.com,3.9
+EMP1430,Sneha Verma,operations,Hyderabad,48,84382,2018-01-23,sneha.verma61@company.com,
+EMP1236,Arjun Iyer,Customer Support,Kolkata,36,31328,16 Jan 2021,arjun.iyer83@company.com,1.3
+EMP1302,Rohan Agarwal,Sales,BANGALORE,35,32895,12 Dec 2016,rohan.agarwal16@company.com,4.3
+EMP1125,Meera Sharma,OPERATIONS,,21,,16/01/2022,meera.sharma21@company.com,2.5
+EMP1228,Pooja Mehta,Customer Support,Mumbai,26,49841,2018-03-11,pooja.mehta95@company.com,1.8
+EMP1299,Rahul Sharma,FINANCE,Pune,21,61421,10 Aug 2019,rahul.sharma5@company.com,1.9
+EMP1042,Neha Shah,HR,mumbai,32,"₹59,782",3 Apr 2024,,3.1
+EMP1004,Ritu Singh,Sales,Chennai,47,43294.00,07-22-2021,ritu.singh22@company.com,
+EMP1332,Neha Agarwal,Ops,Bengaluru,,"₹57,786",01-17-2016,neha.agarwal21@company.com,4.3
+EMP1064,Meera Reddy,Ops,MUMBAI,40,70606,6 Aug 2016,meera.reddy3@company.com,4.0
+EMP1354,Priya Gupta,HR,pune,31,37783,13 Apr 2020,priya.gupta24@company.com,2.1
+EMP1109,Amit Gupta,Sales ,chennai,23,"₹49,773",2018-12-19,amit.gupta95@company.com,4.9
+EMP1255,Ajay Pillai,SUPPORT,HYDERABAD,,34785,2018-10-15,ajay.pillai76@company.com,4.0
+EMP1298,Neha Pillai,SALES,Pune,21,65389,24/01/2023,neha.pillai41@company.com,2.9
+EMP1205,Rahul Agarwal,operations,Calcutta, 42 ,46618,2018-11-19,rahul.agarwal72@company.com,3.8
+EMP1147,Arjun Nair,SUPPORT,Bengaluru,30,95790,16/05/2018,arjun.nair22@company.com,3.8
+EMP1006,Meera Patel,Mktg,pune,26,45442,02/09/2021,meera.patel86@company.com,4.8
+EMP1281,Suresh Iyer,support,New Delhi,,80040,10/01/2020,suresh.iyer74@company.com,3.9
+EMP1446,Manoj Agarwal,finance,kolkata,,25232.00,1 Dec 2016,manoj.agarwal73@company.com,
+EMP1325,Kavita Chopra,H.R.,MUMBAI,46,33319,17/06/2021,kavita.chopra80@company.com,3.2
+EMP1259,Priya Pillai,sales,hyderabad,30yrs,18000,19/04/2019,priya.pillai33@company.com,1.6
+EMP1122,Rahul Mehta,Mktg,Chennai,23,47132.00,04-08-2015,rahul.mehta15@company.com,3.3
+EMP1078,Ajay Kapoor,HR,KOLKATA,29,68679,19 Nov 2024,ajay.kapoor67@company.com,2.0
+EMP1426,Anjali Iyer,Engineering,delhi,35,50929,12/09/2020,anjali.iyer51@company.com,4.1
+EMP1410,Shreya Nair,Sales ,HYDERABAD,25,48424,14 Apr 2020,shreya.nair59@company.com,1.7
+EMP1151,Rohan Malhotra,MARKETING,,28,74070,24 Jun 2015,rohan.malhotra27@company.com,4.4
+EMP1388,Meera Verma,H.R.,HYDERABAD,29yrs,61395.00,11-18-2021,meera.verma52@company.com,3.9
+EMP1163,Arjun Singh,operations,Calcutta,41,39526,2018-12-15,arjun.singh5@company.com,2.6
+EMP1387,Meera Malhotra,Support,pune,29,,27 Jun 2022,meera.malhotra27@company.com,2.6
+EMP1265,Sneha Kapoor,Marketing,KOLKATA,36,75871,,sneha.kapoor56@company.com,2.3
+EMP1402,Rahul Joshi,Sales,Bengaluru,21,"₹77,144",24 Aug 2023,rahul.joshi83@company.com,4.0
+EMP1347,Anjali Chopra,OPERATIONS,BANGALORE,42,57134,05/10/2024,anjali.chopra59@company.com,2.7
+EMP1278,Suresh Nair,sales,,37,39495,07-19-2018,suresh.nair87@company.com,4.6
+EMP1143,Karan Malhotra,Ops,mumbai,31,"₹43,839",05-08-2019,karan.malhotra59@company.com,1.6
+EMP1499,Meera Sharma,Support,pune,33,102675,5 Apr 2019,meera.sharma87@company.com,2.5
+EMP1322,Manoj Bhatt,hr,DELHI,22,55182,1 Aug 2016,manoj.bhatt65@company.com,2.6
+EMP1199,Shreya Bhatt,SUPPORT,Bangalore,25,39905,2019-05-27,shreya.bhatt53@company.com,5.0
+EMP1041,Karan Gupta,Customer Support,mumbai,21,47382,2017-08-15,karan.gupta18@company.com,2.4
+EMP1449,Kavita Verma,SUPPORT,CHENNAI, 37 ,18000.00,2022-03-08,kavita.verma11@company.com,4.9
+EMP1432,Shreya Verma,Ops,Hyderabad,46,78817,2019-12-11,shreya.verma38@company.com,3.1
+EMP1485,Pooja Rao,Operations,Calcutta,,35485,05/10/2019,pooja.rao53@company.com,3.9
+EMP1231,Sanjay Reddy,Ops,Chennai,33,"₹37,691",10/12/2019,sanjay.reddy51@company.com,4.1
+EMP1245,Neha Gupta,Customer Support,PUNE,33,72612.00,25/09/2024,neha.gupta27@company.com,3.7
+EMP1407,Ajay Bhatt,Finance,Kolkata,40,61167.00,10-09-2021,ajay.bhatt6@company.com,2.1
+EMP1359,Karan Das,sales,kolkata,27,52030,23/05/2017,karan.das2@company.com,5.0
+EMP1338,Rahul Rao,SUPPORT,PUNE,37,,10-10-2020,rahul.rao87@company.com,3.7
+EMP1263,Arjun Das,Customer Support,mumbai,21,,14 Jan 2022,arjun.das59@company.com,3.5
+EMP1029,Rahul Malhotra,FINANCE,delhi,30,62176,2016-06-01,rahul.malhotra72@company.com,1.9
+EMP1238,Neha Singh,Eng,bangalore,35,"₹46,301",25/03/2016,neha.singh6@company.com,3.6
+EMP1250,Vikram Gupta,,CHENNAI,37,65647,19 Jan 2017,vikram.gupta78@company.com,4.9
+EMP1162,Vikram Iyer,OPERATIONS,KOLKATA,37,58709.00,18/09/2019,vikram.iyer7@company.com,1.9
+EMP1149,Ritu Malhotra,HR,HYDERABAD,34,92639,19 Sep 2021,ritu.malhotra34@company.com,1.1
+EMP1408,Kavita Shah,MARKETING,pune,37,61140,13 May 2016,kavita.shah35@company.com,3.1
+EMP1404,Divya Mehta,operations,Bengaluru,25,50139,22 Aug 2016,divya.mehta89@company.com,
+EMP1094,Amit Das,support,BANGALORE,,53567,03/10/2017,amit.das29@company.com,2.3
+EMP1279,ARJUN PATEL,Finance,MUMBAI,46,54975,2019-09-24,arjun.patel81@company.com,2.3
+EMP1221,Sneha Mehta,Ops,BANGALORE,21,60594.00,2018-03-05,sneha.mehta21@company.com,2.4
+EMP1085,Vikram Mehta,SUPPORT,CHENNAI,33yrs,53443,14 Jun 2024,vikram.mehta32@company.com,
+EMP1187,Ajay Rao,OPERATIONS,BANGALORE,23,49965,10 May 2019,ajay.rao23@company.com,
+EMP1089,Rohan Kapoor,Ops,chennai,21,57050,8 Apr 2018,rohan.kapoor39@company.com,2.3
+EMP1345,Arjun Mehta,OPERATIONS,hyderabad,21,39642,11-17-2019,arjun.mehta48@company.com,4.2
+EMP1034,Divya Sharma,engineering,mumbai,25,49869,26/10/2021,divya.sharma64@company.com,1.5
+EMP1217,Arjun Reddy,Engineering,KOLKATA,21yrs,79058,2023-02-16,arjun.reddy1@company.com,2.9
+EMP1072,Priya Singh,Operations,CHENNAI,24,56164,2015-12-02,priya.singh31@company.com,2.5
+EMP1305,Ajay Malhotra,finance,delhi,,50758,16 Dec 2017,,3.1
+EMP1220,Kavita Kumar,Finance,BANGALORE,23,44215.00,06-13-2021,kavita.kumar22@company.com,3.0
+EMP1328,Amit Shah,Ops,DELHI,33,18000,03/04/2020,amit.shah59@company.com,1.7
+EMP1488,Sneha Sharma,Sales,Hyderabad,37,23568,11/09/2018,sneha.sharma28@company.com,3.5
+EMP1183,SNEHA MEHTA,ENGINEERING,chennai,46,61031,20 Mar 2020,sneha.mehta13@company.com,2.8
+EMP1012,Priya Chopra,HR,Calcutta,34,89346,2015-12-02,priya.chopra53@company.com,1.8
+EMP1198,Priya Reddy,HR,Kolkata,46,53407,16 Aug 2023,priya.reddy78@company.com,1.8
+EMP1213,Rahul Reddy,Support,Mumbai,44,46762,11-14-2015,rahul.reddy21@company.com,3.9
+EMP1476,Sanjay Reddy,SUPPORT,delhi,37,84992,11/08/2015,sanjay.reddy5@company.com,1.0
+EMP1234,Priya Mehta,MARKETING,pune,30,70338,3 Nov 2018,priya.mehta32@company.com,4.5
+EMP1453,Rohan Patel,Eng,Bombay,32,83984.00,2018-06-19,rohan.patel85@company.com,3.9
+EMP1377,Anjali Patel,FINANCE,DELHI,39,45756,09-22-2020,anjali.patel62@company.com,2.2
+EMP1490,KARAN BHATT,SUPPORT,mumbai,45,53558,14 Feb 2017,karan.bhatt15@company.com,3.5
+EMP1096,Kavita Patel,Mktg,mumbai, 43 ,83099,,kavita.patel97@company.com,1.8
+EMP1340,Rahul Singh,SALES,bangalore,30,66098.00,4 Jan 2022,rahul.singh32@company.com,1.5
+EMP1297,Pooja Bhatt,Human Resources,PUNE,39,18993,26 Aug 2017,pooja.bhatt62@company.com,3.3
+EMP1063,Suresh Shah,Mktg,bangalore,21,57886,21 Mar 2016,suresh.shah28@company.com,2.7
+EMP1222,Divya Gupta,Engineering,mumbai,45,42635,01-10-2017,divya.gupta6@company.com,4.8
+EMP1095,Karan Gupta,Marketing,,27,54041,03-03-2021,karan.gupta31@company.com,2.7
+EMP1013,Ritu Gupta,Finance,Pune,21,48202,7 Jun 2020,ritu.gupta30@company.com,3.0
+EMP1327,Sanjay Gupta,marketing,KOLKATA,23,66943,10-17-2023,sanjay.gupta29@company.com,1.2
+EMP1017,Divya Verma,operations,Kolkata,46,"₹61,932",2024-01-11,divya.verma67@company.com,1.5
+EMP1392,Shreya Gupta,Operations,Hyderabad,21,48006,2018-10-25,shreya.gupta32@company.com,1.1
+EMP1246,Suresh Pillai,Eng,MUMBAI,,56210,2021-11-07,suresh.pillai71@company.com,4.0
+EMP1420,Ajay Kapoor,SALES,Mumbai,37,61606,20 Aug 2024,ajay.kapoor70@company.com,4.9
+EMP1207,Amit Kapoor,Mktg,PUNE,23,18000,04/10/2019,amit.kapoor58@company.com,1.9
+EMP1090,Suresh Das,ENGINEERING,Calcutta,33,45812,06-10-2019,suresh.das15@company.com,1.1
+EMP1307,Anjali Nair,marketing,CHENNAI,33yrs,52655,2016-09-19,anjali.nair86@company.com,3.9
+EMP1467,Neha Nair,MARKETING,CHENNAI,21,40644,01-04-2015,neha.nair96@company.com,4.7
+EMP1344,Neha Verma,ENGINEERING,Mumbai,28,28705.00,24 Sep 2022,neha.verma20@company.com,2.2
+EMP1357,Rahul Bhatt,ENGINEERING,Hyderabad,26,30120,10-20-2022,rahul.bhatt67@company.com,2.2
+EMP1374,Priya Nair,FINANCE,mumbai,,40230,17 Apr 2018,priya.nair46@company.com,2.7
+EMP1390,Suresh Reddy,SUPPORT,BANGALORE,28,53315,15 Nov 2018,suresh.reddy65@company.com,1.5
+EMP1039,Amit Mehta,MARKETING,PUNE,21,54763,07/10/2016,amit.mehta85@company.com,2.8
+EMP1086,Shreya Gupta,engineering,pune, 37 ,98877,09-09-2016,shreya.gupta42@company.com,1.9
+EMP1181,Sanjay Singh,SALES,delhi,24,57917,6 Nov 2018,sanjay.singh8@company.com,3.8
+EMP1370,Pooja Sharma,,Pune,36,40834,02-23-2021,pooja.sharma58@company.com,2.8
+EMP1145,Anjali Reddy,Sales ,HYDERABAD,35,59078,20/03/2022,anjali.reddy8@company.com,3.9
+EMP1158,Ritu Agarwal,Sales ,BANGALORE,43,30482,14/12/2022,ritu.agarwal80@company.com,4.2
+EMP1437,Priya Bhatt,sales,BANGALORE,31,55637,03-15-2015,priya.bhatt32@company.com,
+EMP1396,Priya Verma,operations,chennai, 24 ,58527,04-15-2019,priya.verma25@company.com,2.0
+EMP1397,Kavita Malhotra,,Pune,34,68410,19 Apr 2021,kavita.malhotra47@company.com,4.4
+EMP1495,Karan Bhatt,Eng,, 34 ,,2017-07-02,karan.bhatt90@company.com,3.4
+EMP1200,Shreya Agarwal,H.R.,delhi,29,48860,03-15-2024,shreya.agarwal56@company.com,3.6
+EMP1292,Divya Malhotra,Operations,Bombay,34,33812,27/05/2019,divya.malhotra63@company.com,3.8
+EMP1348,Ajay Chopra,Fin,Kolkata,33,"₹56,903",03-24-2022,ajay.chopra9@company.com,1.6
+EMP1071,Kavita Joshi,ENGINEERING,kolkata,33,41456,10-25-2020,kavita.joshi78@company.com,4.8
+EMP1412,Rohan Mehta,H.R.,Hyderabad,29,"₹85,513",05/12/2019,rohan.mehta6@company.com,1.4
+EMP1450,Ajay Singh,Ops,Calcutta,23,69591,18/04/2023,ajay.singh62@company.com,1.5
+EMP1393,Divya Pillai,operations,Mumbai, 27 ,38297,25/04/2024,divya.pillai85@company.com,3.5
+EMP1424,Karan Chopra,engineering,New Delhi,23,"₹62,904",4 Sep 2018,karan.chopra56@company.com,
+EMP1305,Ajay Malhotra,finance,delhi,,50758,16 Dec 2017,,3.1
+EMP1340,Rahul Singh,SALES,bangalore,30,66098.00,4 Jan 2022,rahul.singh32@company.com,1.5
+EMP1351,Rahul Agarwal,HR,Mumbai,21,,27 Jun 2023,rahul.agarwal21@company.com,3.5
+EMP1419,Priya Patel,ENGINEERING,MUMBAI,33,31262,,priya.patel51@company.com,2.4
+EMP1133,Ajay Das,Sales,hyderabad,41,"₹32,289",19/06/2023,ajay.das46@company.com,4.3
+EMP1060,Suresh Patel,Sales,HYDERABAD,26,18000,02-09-2017,suresh.patel25@company.com,4.5
+EMP1406,Vikram Reddy,support,,29,44962,24 Aug 2016,vikram.reddy15@company.com,1.1
+EMP1026,Manoj Iyer,finance,kolkata,35,56589,21/02/2020,manoj.iyer5@company.com,2.7
+EMP1100,Shreya Kumar,finance,Chennai,36,51915,2019-09-20,shreya.kumar4@company.com,3.8
+EMP1019,Shreya Shah,finance,DELHI,37,52465,,shreya.shah59@company.com,1.4
+EMP1415,Sneha Verma,sales,New Delhi,37,57110,2024-11-04,sneha.verma48@company.com,2.7
+EMP1304,Manoj Patel,Ops,Chennai,36,48514,11-19-2024,manoj.patel46@company.com,4.6
+EMP1264,Neha Malhotra,Customer Support,chennai, 23 ,"₹43,636",8 Jun 2019,neha.malhotra94@company.com,5.0
+EMP1276,Ajay Malhotra,,DELHI,29,84780,18/11/2022,ajay.malhotra43@company.com,3.7
+EMP1008,Arjun Sharma,ENGINEERING,Bombay,43,57823,15/02/2024,arjun.sharma86@company.com,4.6
+EMP1363,Ajay Iyer,OPERATIONS,Mumbai, 33 ,27390,06-02-2024,ajay.iyer91@company.com,2.0
+EMP1309,Sanjay Reddy,HR,Calcutta,31,56639,2016-02-18,sanjay.reddy90@company.com,3.3
+EMP1283,Sneha Chopra,Fin,bangalore,31,42708,23/07/2019,sneha.chopra41@company.com,2.8
+EMP1322,Manoj Bhatt,hr,DELHI,22,55182,1 Aug 2016,manoj.bhatt65@company.com,2.6
+EMP1092,Suresh Patel,SUPPORT,Mumbai,21,62855,2020-09-02,suresh.patel11@company.com,3.7
+EMP1252,Sneha Patel,sales,,26,24260,06-01-2018,sneha.patel57@company.com,1.3
+EMP1032,Amit Kapoor,hr,mumbai,29,36331,8 Jun 2022,amit.kapoor51@company.com,3.8
+EMP1135,Anjali Kumar,SUPPORT,New Delhi,29,66661,2021-05-05,anjali.kumar98@company.com,
+EMP1022,Neha Nair,Customer Support,Bangalore,22,81848,2015-08-15,neha.nair45@company.com,
+EMP1062,Pooja Singh,Mktg,MUMBAI,31,61460,6 Mar 2015,pooja.singh56@company.com,1.9
+EMP1148,Manoj Mehta,support,Chennai,41,"₹45,002",2021-06-04,manoj.mehta3@company.com,2.2
+EMP1215,Meera Chopra,FINANCE,Bengaluru,39,48638,22 Feb 2022,meera.chopra34@company.com,2.4
+EMP1442,Kavita Gupta,sales,,22,31997,2021-05-09,kavita.gupta16@company.com,2.3
+EMP1066,Anjali Das,sales,bangalore,25,50769,01-17-2021,anjali.das81@company.com,3.2
+EMP1257,Neha Agarwal,ENGINEERING,Mumbai,21,37458,07-18-2018,neha.agarwal46@company.com,1.6
+EMP1052,Pooja Gupta,Customer Support,CHENNAI,,61276,12-04-2015,pooja.gupta17@company.com,3.9
+EMP1443,Kavita Malhotra,SALES,HYDERABAD,21,73464,05-11-2017,kavita.malhotra65@company.com,2.4
+EMP1173,Kavita Agarwal,finance,,44,30039,05/10/2016,kavita.agarwal63@company.com,4.7
+EMP1035,Ritu Mehta,Eng,Kolkata,23,30182,8 Feb 2019,ritu.mehta97@company.com,3.4
+EMP1178,Anjali Pillai,Customer Support,Hyderabad,21,53351,06/08/2023,,4.8
+EMP1167,Rohan Patel,operations,kolkata,26,38923,2017-09-10,rohan.patel89@company.com,2.6
+EMP1226,Anjali Nair,,delhi,40,56124,11-07-2024,anjali.nair51@company.com,1.2
+EMP1120,Ritu Joshi,Human Resources,PUNE,30,37045,19/07/2023,ritu.joshi50@company.com,3.3
+EMP1456,Ritu Das,operations,CHENNAI,34,106205,06-16-2022,ritu.das5@company.com,1.3
+EMP1275,Rohan Sharma,Operations,PUNE,37,39710,01/09/2019,rohan.sharma32@company.com,3.1
+EMP1044,Manoj Bhatt,,bangalore,22,66238,11-02-2018,manoj.bhatt49@company.com,3.5
+EMP1300,Sanjay Mehta,Eng,mumbai,28,36594,09/04/2020,sanjay.mehta59@company.com,3.2
+EMP1324,Kavita Verma,,kolkata,43,43036,06-07-2015,kavita.verma20@company.com,1.9
+EMP1076,Rohan Patel,OPERATIONS,Chennai,29,38242,2023-12-13,rohan.patel31@company.com,4.1
+EMP1208,Arjun Patel,FINANCE,pune,33,74633,24/04/2015,arjun.patel78@company.com,4.4
+EMP1368,Pooja Gupta,Human Resources,Delhi,29,18000,2017-09-15,pooja.gupta31@company.com,4.8
+EMP1394,Karan Mehta,HR,Kolkata,40,53277,16/05/2021,karan.mehta1@company.com,3.9
+EMP1212,Kavita Kumar,H.R.,,,"₹25,147",2017-01-13,kavita.kumar41@company.com,1.3
+EMP1267,Divya Mehta,H.R.,New Delhi,37,"₹66,533",13 May 2023,divya.mehta26@company.com,4.2
+EMP1311,Meera Nair,operations,Delhi,36,55383,25/08/2015,meera.nair59@company.com,2.8
+EMP1216,Sanjay Kumar,Sales ,pune,40,37285,2015-04-13,sanjay.kumar89@company.com,4.9
+EMP1470,Anjali Reddy,MARKETING,BANGALORE,24,51647,11-14-2018,anjali.reddy34@company.com,3.8
+EMP1009,Ajay Sharma,Ops,BANGALORE,36,52460,08/11/2021,ajay.sharma16@company.com,4.5
+EMP1436,Kavita Malhotra,finance,MUMBAI,38,,17 Nov 2016,kavita.malhotra38@company.com,3.3
+EMP1457,Sanjay Rao,ENGINEERING,Calcutta,32,40931.00,4 Aug 2022,sanjay.rao47@company.com,4.8
+EMP1285,Karan Agarwal,hr,New Delhi,40,39091,08-10-2015,karan.agarwal70@company.com,2.0
+EMP1295,Kavita Singh,finance,Bengaluru,,66283,21 Dec 2017,kavita.singh2@company.com,2.1
+EMP1104,Meera Shah,hr,Bombay,33,25893,2015-01-17,meera.shah82@company.com,1.8
+EMP1312,Anjali Bhatt,engineering,PUNE,37,62084.00,2018-08-19,anjali.bhatt97@company.com,1.5
+EMP1469,Neha Malhotra,Ops,pune,32,74295,05/02/2017,neha.malhotra59@company.com,3.9
+EMP1277,Priya Das,Eng,HYDERABAD,31,55657,05-14-2020,priya.das25@company.com,2.4
+EMP1091,Amit Mehta,Eng,kolkata, 32 ,,27/06/2018,,4.5
+EMP1182,Priya Rao,SUPPORT,Delhi,29,50459,25/05/2016,priya.rao39@company.com,2.0
+EMP1315,Rahul Shah,Ops,Calcutta,21,"₹61,697",11-15-2019,rahul.shah42@company.com,2.7
+EMP1493,Sanjay Bhatt,Mktg,Bangalore,32,27982,2017-12-06,sanjay.bhatt11@company.com,
+EMP1172,Karan Singh,marketing,Mumbai,25,56797,08-26-2019,karan.singh27@company.com,3.2
+EMP1232,Neha Joshi,Eng,Chennai,38,51376.00,19/05/2024,neha.joshi34@company.com,
+EMP1031,Rohan Joshi,Operations,PUNE,33,63709,15 Jun 2019,rohan.joshi45@company.com,1.5
+EMP1036,Arjun Das,Marketing,CHENNAI,21,74713,2017-11-27,arjun.das20@company.com,1.5
+EMP1156,Ritu Iyer,Sales ,Mumbai,21,47392,17/06/2015,ritu.iyer14@company.com,3.5
+EMP1002,Suresh Malhotra,Finance,bangalore,35,65800,2 Dec 2018,suresh.malhotra28@company.com,2.8
+EMP1242,Kavita Kapoor,SUPPORT,Mumbai,38,65602,02-27-2015,kavita.kapoor15@company.com,4.3
+EMP1308,Neha Sharma,Finance,Bombay,37yrs,"₹106,505",15/05/2023,neha.sharma20@company.com,4.0
+EMP1289,Suresh Das,MARKETING,Mumbai,31yrs,78930,27/11/2023,suresh.das42@company.com,4.4
+EMP1445,Rohan Chopra,Mktg,BANGALORE,31,57942,2024-12-23,rohan.chopra98@company.com,4.7
+EMP1048,Arjun Rao,ENGINEERING,kolkata,28,51890,22/03/2020,arjun.rao5@company.com,2.5
+EMP1414,Neha Reddy,sales,MUMBAI,29,61009,,neha.reddy24@company.com,2.9
+EMP1421,Divya Agarwal,FINANCE,Pune,33,18000,07-11-2018,divya.agarwal60@company.com,4.8
+EMP1141,Arjun Verma,SUPPORT,pune,34,"₹89,157",12-05-2017,arjun.verma22@company.com,1.2
+EMP1223,Anjali Mehta,Sales,Pune,27,62796,4 Jul 2016,anjali.mehta9@company.com,3.4
+EMP1352,Karan Mehta,sales,Bombay,21,57708,12 Sep 2023,karan.mehta38@company.com,
+EMP1183,Sneha Mehta,ENGINEERING,chennai,46,61031,20 Mar 2020,sneha.mehta13@company.com,2.8
+EMP1331,Anjali Nair,Support,Calcutta,,52745,09-06-2024,anjali.nair11@company.com,1.0
+EMP1399,SANJAY PILLAI,Sales ,Calcutta,33,45807,08-15-2019,sanjay.pillai89@company.com,1.1
+EMP1459,Arjun Bhatt,Ops,Bangalore,38,39798,23/05/2020,arjun.bhatt60@company.com,3.2
+EMP1160,Meera Malhotra,sales,Chennai,25,34160,11-05-2022,meera.malhotra56@company.com,4.1
+EMP1336,Vikram Shah,Sales ,Hyderabad,35,80398,2020-06-08,vikram.shah27@company.com,3.9
+EMP1400,Sanjay Reddy,FINANCE,chennai,23,78463,03-11-2017,sanjay.reddy42@company.com,3.7
+EMP1219,Rahul Gupta,operations,CHENNAI,28,41538,17 Dec 2015,,2.3
+EMP1099,Amit Rao,Customer Support,delhi,33yrs,41717,2017-07-21,amit.rao58@company.com,2.5
+EMP1380,Karan Shah,hr,MUMBAI,47,75112,21 May 2017,karan.shah53@company.com,4.7
+EMP1235,Vikram Patel,SALES,kolkata,32,79759,20 Dec 2023,vikram.patel58@company.com,3.4
+EMP1458,Ajay Agarwal,Mktg,BANGALORE,38,45321,2023-12-24,ajay.agarwal68@company.com,2.0
+EMP1484,Rohan Shah,Customer Support,Hyderabad,31,39431.00,16 Feb 2019,rohan.shah40@company.com,4.6
+EMP1117,Rahul Iyer,Customer Support,Mumbai,30,84425,22/03/2022,rahul.iyer24@company.com,4.1
+EMP1341,Ritu Rao,Operations,Bengaluru,37,63054,2020-03-24,ritu.rao83@company.com,1.6
+EMP1001,Rohan Agarwal,Finance,Hyderabad,36,57229,9 Apr 2018,rohan.agarwal49@company.com,1.8
+EMP1113,Kavita Reddy,SUPPORT,delhi,24,46328,2016-02-17,kavita.reddy98@company.com,4.4
+EMP1496,Vikram Malhotra,finance,MUMBAI,25,28534,10 Sep 2020,vikram.malhotra10@company.com,3.9
+EMP1174,Manoj Kapoor,Mktg,Calcutta,23,,16 Feb 2020,manoj.kapoor49@company.com,3.6
+EMP1253,Karan Joshi,Sales,chennai,21,39336,2024-12-16,karan.joshi93@company.com,4.9
+EMP1477,Sanjay Nair,Engineering,Pune,36,25751,,sanjay.nair16@company.com,2.6
+EMP1455,Manoj Bhatt,operations,chennai,36,37960,01-08-2016,manoj.bhatt20@company.com,5.0
+EMP1440,Rahul Rao,hr,Delhi,42,65690,2023-12-12,rahul.rao82@company.com,4.4
+EMP1184,Amit Reddy,Support,Pune,39,42909,05/09/2015,amit.reddy73@company.com,3.6
+EMP1165,Sneha Kapoor,marketing,New Delhi,24,56484,19/06/2019,sneha.kapoor40@company.com,3.9
+EMP1168,Neha Bhatt,Eng,Chennai, 28 ,50142,02-08-2021,neha.bhatt16@company.com,3.8
+EMP1372,Divya Pillai,FINANCE,Hyderabad,32,47926,07/03/2015,divya.pillai28@company.com,4.4
+EMP1274,Sanjay Iyer,H.R.,Bengaluru,41,64847,06/11/2018,sanjay.iyer58@company.com,4.9
+EMP1192,Rohan Sharma,HR,delhi,21,85186,2018-05-02,rohan.sharma4@company.com,1.7
+EMP1000,Ritu Kumar,Mktg,Chennai,23,"₹38,997",2015-08-13,ritu.kumar76@company.com,3.7
+EMP1054,Karan Das,sales,chennai, 30 ,66145,25 Sep 2024,karan.das66@company.com,1.9
+EMP1375,Priya Bhatt,SUPPORT,KOLKATA,29,"₹41,674",10/02/2023,priya.bhatt29@company.com,3.4
+EMP1028,Amit Chopra,hr,Bombay,36,56292,23 Oct 2022,amit.chopra27@company.com,3.6
+EMP1206,Vikram Mehta,Sales ,Kolkata,25,,08-06-2019,vikram.mehta7@company.com,2.9
+EMP1383,Anjali Nair,HR,Pune,21,52900,03-09-2023,anjali.nair71@company.com,4.5
+EMP1405,Arjun Verma,sales,CHENNAI,26,60426,,arjun.verma17@company.com,4.4
+EMP1049,Kavita Pillai,Finance,PUNE,32,59830,03-07-2021,,1.3
+EMP1350,Karan Das,Engineering,mumbai,25,"₹58,388",17/05/2016,karan.das29@company.com,1.3
+EMP1020,Neha Iyer,sales,Pune,34,56922,2017-05-16,neha.iyer18@company.com,1.2
+EMP1293,Rohan Sharma,Customer Support,Calcutta,25,63042,13 Nov 2022,rohan.sharma24@company.com,1.8
+EMP1176,Sneha Das,Customer Support,kolkata,45,45433,6 Nov 2018,sneha.das26@company.com,3.5
+EMP1335,Shreya Verma,OPERATIONS,New Delhi,21,38829,2022-05-07,shreya.verma45@company.com,1.4
+EMP1379,Amit Singh,Customer Support,Bombay,28,78518,02-11-2021,amit.singh62@company.com,4.6
+EMP1033,Sneha Sharma,engineering,Delhi,33,49826,05-03-2016,sneha.sharma78@company.com,4.5
+EMP1171,Pooja Pillai,Engineering,Hyderabad,26,"₹53,335",04-25-2023,pooja.pillai84@company.com,1.1
+EMP1007,Shreya Malhotra,finance,pune,28,77360,21 Sep 2016,shreya.malhotra15@company.com,1.7
+EMP1318,Ritu Kumar,marketing,Mumbai, 27 ,"₹56,211",10-15-2018,ritu.kumar7@company.com,2.3
+EMP1152,Amit Singh,SALES,delhi,34,54756,06-09-2024,amit.singh62@company.com,4.0
+EMP1106,Rohan Iyer,SUPPORT,chennai,35,53855,7 Dec 2024,rohan.iyer34@company.com,4.1
+EMP1413,Neha Sharma,Eng,chennai,35,23610,10-17-2024,neha.sharma50@company.com,2.3
+EMP1097,Arjun Mehta,Sales,Bengaluru,26,87923,09-09-2017,arjun.mehta7@company.com,1.7
+EMP1110,Amit Agarwal,Marketing,HYDERABAD,29yrs,65800,04-27-2017,amit.agarwal41@company.com,1.1
+EMP1360,Pooja Bhatt,Engineering,PUNE,33,,03-21-2016,pooja.bhatt52@company.com,
+EMP1069,Ritu Gupta,Customer Support,Bangalore,27,63087,2024-05-15,ritu.gupta93@company.com,1.2
+EMP1346,Pooja Chopra,finance,Bombay,53,45383,25/08/2024,pooja.chopra24@company.com,4.9
+EMP1435,Amit Mehta,ENGINEERING,Chennai, 34 ,58747,04-08-2023,amit.mehta78@company.com,2.8
+EMP1129,Ajay Patel,Sales,Chennai,33,69312,2022-12-22,ajay.patel36@company.com,2.9
+EMP1316,Neha Joshi,Customer Support,CHENNAI,46,52601,7 Feb 2024,neha.joshi2@company.com,2.0
+EMP1447,Manoj Pillai,MARKETING,Pune,32,73973,12/07/2022,manoj.pillai88@company.com,4.1
+EMP1258,Sneha Shah,FINANCE,bangalore,33yrs,51560,23/08/2018,sneha.shah20@company.com,2.4
+EMP1474,Rohan Joshi,,Bombay,27,32817,2017-04-08,rohan.joshi11@company.com,4.6
+EMP1337,Meera Gupta,Sales ,BANGALORE,34,78663,12 May 2016,meera.gupta39@company.com,3.2
+EMP1479,Meera Pillai,support,Bombay,23,66859,06/07/2021,meera.pillai90@company.com,2.0
+EMP1398,Divya Sharma,SUPPORT,chennai,31,67096,09/12/2021,divya.sharma64@company.com,1.2
+EMP1423,Vikram Verma,Operations,hyderabad,33,92094,12-16-2024,vikram.verma19@company.com,2.9
+EMP1480,Sanjay Sharma,Ops,BANGALORE, 39 ,47974,16/02/2015,sanjay.sharma23@company.com,3.0
+EMP1422,Meera Nair,hr,mumbai,33,59163,02-10-2021,meera.nair22@company.com,4.8
+EMP1119,Neha Patel,Operations,Mumbai,37,51792,22/07/2015,neha.patel71@company.com,3.8
+EMP1256,Pooja Chopra,Sales,CHENNAI,42,54678,2018-07-02,pooja.chopra21@company.com,4.8
+EMP1249,Vikram Bhatt,Sales,HYDERABAD,29,78045,25 Apr 2018,vikram.bhatt51@company.com,1.2
